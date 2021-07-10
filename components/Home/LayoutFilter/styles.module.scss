@@ -1,0 +1,44 @@
+.layoutFilter {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.25);
+    padding-bottom: 10px;
+    margin: 0 10px 20px;
+    margin-bottom: 30px;
+
+    > p {
+        margin: 0;
+        font-weight: 600;
+    }
+
+    @media ( min-width: 800px ) {
+        margin-bottom: 60px;
+    }
+}
+
+.layoutButtons {
+    display: flex;
+
+    > div {
+        display: flex;
+
+        &:first-of-type {
+            margin-right: 10px;
+        }
+
+        svg, button {
+            cursor: pointer;
+        }
+        
+        svg {
+            width: 13px;
+            margin-right: 5px;
+        }
+
+        button {
+            background: none;
+            border: none;
+            padding: 0;
+        }
+    }
+}

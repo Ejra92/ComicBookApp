@@ -1,0 +1,54 @@
+@import url("https://unpkg.com/nprogress@0.2.0/nprogress.css");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  padding: 20px 0;
+  background-color: #F8F9FA;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+
+  @media ( min-width: 660px  ) {
+    width: 640px;
+  }
+
+  @media ( min-width: 768px  ) {
+    width: 720px;
+  }
+
+  @media ( min-width: 992px  ) {
+    width: 960px;
+  }
+
+  @media ( min-width: 1200px  ) {
+    width: 1140px;
+  }
+
+  @media ( min-width: 1400px  ) {
+    width: 1350px;
+  }
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

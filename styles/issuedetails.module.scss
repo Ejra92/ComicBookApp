@@ -1,0 +1,23 @@
+.issueDetails {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    @media ( max-width: 1024px ) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.containerImage {
+    width: 45%;
+
+    min-width: 300px;
+
+    @media ( max-width: 1024px ) {
+        margin-bottom: 20px;
+    }
+}

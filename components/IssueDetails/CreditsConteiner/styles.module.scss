@@ -1,0 +1,45 @@
+.creditsContainer {
+    width: 53%;
+
+    @media ( max-width: 1024px ) {
+        width: calc( 100% - 20px );
+    }
+
+}
+
+.credits {
+    margin-bottom: 20px;
+
+    h2 {
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.25);
+        margin-top: 0;
+        padding-bottom: 10px;
+    }
+    
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.credit {
+    margin-left: 10px;
+    color: green;
+    font-weight: 500;
+    display: flex;
+
+    @media ( max-width: 1024px ) {
+        justify-content: center;
+        margin-left: 0;
+    }
+}
+
+.creditImage {
+    align-self: center;
+
+    image {
+        margin-right: 10px ;
+    }
+}

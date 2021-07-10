@@ -1,0 +1,24 @@
+.issuesContainerGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @media ( max-width: 1000px ) {
+        justify-content: space-around; 
+    }
+}
+
+.issuesContainerList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    // max-width: 800px;
+    margin: 0 auto;
+
+    @media ( min-width: 800px ) {
+        width: 80%;
+        max-width: 800px;
+    }
+}
